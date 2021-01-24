@@ -25,7 +25,7 @@ jobs:
   deploy:
     needs:
       - build
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: azure/setup-helm@v1
@@ -39,5 +39,5 @@ jobs:
           helm repo update
           echo "${{ secrets.B64_KUBE_CONFIG }}" | base64 --decode > ~/.kube/config
           export sha="${{ github.sha }}"
-          helm upgrade versionl maxisme/web -f helm-values.yml --set="image.tag=sha-${sha:0:7}" --wait --timeout 60s
+          helm upgrade versionl maxisme/web -f helm-values.yml --set="image.tag=sha-${sha:0:7}" --install --wait --timeout 60s
           rm ~/.kube/config
