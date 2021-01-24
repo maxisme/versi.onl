@@ -1,0 +1,36 @@
+<head>
+    <!-- mobile meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="preload stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600;900&display=swap"
+          rel="preload stylesheet">
+    <style>
+        * {
+            font-family: "Inconsolata", monospace;
+            list-style-type: none;
+        }
+        p {
+            font-size: 15px;
+        }
+        div {
+            font-size: 20px;
+        }
+        a:visited {
+            color: #bc2122;
+        }
+    </style>
+</head>
+<body>
+<div align="center">
+    <h1>
+        {{ . }}
+    </h1>
+    <p>
+        Bump versions with <a target="_blank" href="https://semver.org/">Semantic Versioning</a>.
+    </p>
+    <div><a href="https://major.{{ . }}/1.2.3">major.{{ . }}/1.2.3</a> - 2.0.0</div>
+    <div><a href="https://minor.{{ . }}/1.2.3">minor.{{ . }}/1.2.3</a> - 1.3.0</div>
+    <div><a href="https://patch.{{ . }}/1.2.3">patch.{{ . }}/1.2.3</a> - 1.2.4</div>
+</div>
+</body>

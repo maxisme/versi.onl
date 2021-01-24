@@ -1,0 +1,12 @@
+github.com/Masterminds/semver v1.5.0 h1:H65muMkzWKEuNDnfl9d70GUjFniHKHRbFPGBuZ3QEww=
+github.com/Masterminds/semver v1.5.0/go.mod h1:MB6lktGJrhw8PrUyiEoblNEGEQ+RzHPF078ddwwvV3Y=
+github.com/TV4/graceful v0.3.4 h1:Rp9PUwTMIW8m3rsEMkiq9JM6+ldBZIfLXn+hYTjenQs=
+github.com/TV4/graceful v0.3.4/go.mod h1:FCdf8hfXvxOSAQy0C0dBTCSCuMgowS++HzwYL7TIjf4=
+github.com/cespare/xxhash/v2 v2.1.1 h1:6MnRN8NT7+YBpUIWxHtefFZOKTAPgGjpQSxqLNn0+qY=
+github.com/cespare/xxhash/v2 v2.1.1/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
+github.com/go-chi/chi v1.5.1 h1:kfTK3Cxd/dkMu/rKs5ZceWYp+t5CtiE7vmaTv3LjC6w=
+github.com/go-chi/chi v1.5.1/go.mod h1:REp24E+25iKvxgeTfHmdUoL5x15kBiDBlnIl5bCwe2k=
+github.com/go-chi/hostrouter v0.0.0-20201102173854-85defb39fbf4 h1:CW9qf8zzY5ml3wkYZOLBNxfsZQkAXkwktplbh1Jw/1Q=
+github.com/go-chi/hostrouter v0.0.0-20201102173854-85defb39fbf4/go.mod h1:O0Q6TlPEvjLqJu7QcX2GYOBDKkQfKmVIPsZeCy3/KJA=
+github.com/go-chi/httprate v0.4.0 h1:M2qVV0w6ksgLs6L8lTrvqNeaVm0ZJNVdbYM8u2T8HaE=
+github.com/go-chi/httprate v0.4.0/go.mod h1:7e7qjQtHzEbdyW5TYQrl4X2uNRCnlTajictc7B4ftgc=
