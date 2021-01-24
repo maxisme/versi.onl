@@ -1,5 +1,5 @@
 ingress:
-  match: "Host(`versi.onl`)"
+  match: "Host(`versi.onl`, `major.versi.onl`, `minor.versi.onl`, `patch.versi.onl`)"
 
 image:
   repository: "maxisme/versi.onl"
