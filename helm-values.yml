@@ -1,0 +1,6 @@
+ingress:
+  match: "Host(`versi.onl`)"
+
+image:
+  repository: "maxisme/versi.onl"
+        
