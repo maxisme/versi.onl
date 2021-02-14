@@ -3,4 +3,4 @@ ingress:
 
 image:
   repository: "maxisme/versi.onl"
-        
+
